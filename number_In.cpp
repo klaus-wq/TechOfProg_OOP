@@ -2,6 +2,7 @@
 // Необходима подключить информацию обо всех имеющихся числах
 #include "complex_atd.h"
 #include "simple_atd.h"
+#include "polar_atd.h"
 using namespace std;
 namespace simple_numbers {
 	// Ввод параметров обобщенного числа
@@ -15,6 +16,9 @@ namespace simple_numbers {
 			break;
 		case 2:
 			nb = new simple;
+			break;
+		case 3:
+			nb = new polar;
 			break;
 		default:
 			return 0;
