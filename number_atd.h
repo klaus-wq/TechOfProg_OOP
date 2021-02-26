@@ -13,6 +13,7 @@ namespace simple_numbers {
 		static number* In(ifstream& ifst);
 		virtual void InData(ifstream& ifst) = 0; // ввод
 		virtual void Out(ofstream& ofst) = 0; // вывод
+		virtual int Real() = 0; //приведение к действительному числу
 	};
 } // end simple_numbers namespace
 #endif
