@@ -1,9 +1,14 @@
 Filled container. 
 Container contains 5 elements. 
 0: It is complex number: x = 1, y = 2
+Real = 2
 1: It is simple fraction: a = 2, b = 3
+Real = 0
 2: It is simple fraction: a = 5, b = 6
+Real = 0
 3: It is complex number: x = 3, y = 4
+Real = 5
 4: It is simple fraction: a = 5, b = 7
+Real = 0
 Empty container. 
 Container contains 0 elements. 
