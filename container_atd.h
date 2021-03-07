@@ -23,6 +23,7 @@ namespace simple_numbers {
 			void In(ifstream& ifst);
 			void Out(ofstream& ofst);
 			void Real(ofstream& ofst);
+			void Sort();
 			void Clear();
 
 			container();
