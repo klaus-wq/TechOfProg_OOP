@@ -4,7 +4,7 @@ namespace simple_numbers {
 	// Вывод содержимого контейнера
 	bool node::output_node(ofstream& ofst)
 	{
-		n->Out(ofst);
+		n->OutComplex(ofst);
 		ofst << "Real = " << n->Real() << endl;
 		return true;
 	}

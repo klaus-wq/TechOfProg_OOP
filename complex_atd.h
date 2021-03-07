@@ -1,7 +1,7 @@
 #pragma once
 #ifndef __complex_atd__
 #define __complex_atd__
-// Требеутся описание класса number
+// Требуется описание класса number
 #include "number_atd.h"
 namespace simple_numbers {
 	// комплексное число
@@ -12,6 +12,7 @@ namespace simple_numbers {
 		void InData(ifstream& ifst); // ввод
 		void Out(ofstream& ofst); // вывод
 		int Real(); //приведение к действительному числу
+		void OutComplex(ofstream& ofst);
 		complex() {} // создание без инициализации.
 	};
 } // end simple_numbers namespace

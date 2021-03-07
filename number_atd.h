@@ -12,8 +12,9 @@ namespace simple_numbers {
 	public:
 		// идентификация, порождение и ввод чисел из потока
 		static number* In(ifstream& ifst);
-		virtual void InData(ifstream& ifst) = 0; // ввод
+		virtual void InData(ifstream& ifst) = 0; //ввод
 		virtual void Out(ofstream& ofst) = 0; // вывод
+		virtual void OutComplex(ofstream& ofst);
 		virtual int Real() = 0; //приведение к действительному числу
 		bool Compare(number* other);
 	};
