@@ -1,19 +1,16 @@
 Filled container. 
 Container contains 5 elements. 
-0: It is complex number: x = 1, y = 2
+0: It is complex number: x = 3, y = 4
+Measure = dm
+Real = 5
+1: 
+Real = 5
+2: It is complex number: x = 1, y = 2
 Measure = sm
 Real = 2
-1: It is simple fraction: a = 2, b = 3
-Measure = sm
+3: 
 Real = 0
-2: It is simple fraction: a = 5, b = 6
-Measure = dm
+4: 
 Real = 0
-3: It is complex number: x = 3, y = 4
-Measure = dm
-Real = 5
-4: It is polar: r = 5, fi = 5
-Measure = sm
-Real = 5
 Empty container. 
 Container contains 0 elements. 
