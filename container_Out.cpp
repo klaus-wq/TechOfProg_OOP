@@ -5,6 +5,7 @@ namespace simple_numbers {
 	bool node::output_node(ofstream& ofst)
 	{
 		n->Out(ofst);
+		ofst << "Real = " << n->Real() << endl;
 		return true;
 	}
 

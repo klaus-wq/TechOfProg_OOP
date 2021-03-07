@@ -11,6 +11,7 @@ namespace simple_numbers {
 		// переопределяем интерфейс класса
 		void InData(ifstream& ifst); // ввод
 		void Out(ofstream& ofst); // вывод
+		int Real(); //приведение к действительному числу
 		simple() {} // создание без инициализации.
 	};
 } // end simple_numbers namespace

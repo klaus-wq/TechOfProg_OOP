@@ -22,6 +22,7 @@ namespace simple_numbers {
 			node* tail;
 			void In(ifstream& ifst);
 			void Out(ofstream& ofst);
+			void Real(ofstream& ofst);
 			void Clear();
 
 			container();
