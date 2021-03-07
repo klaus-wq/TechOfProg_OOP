@@ -1,10 +1,13 @@
 Filled container. 
 Container contains 6 elements. 
 0: It is complex number: x = 1, y = 2
+Measure = sm
 1: It is simple fraction: a = 2, b = 3
+Measure = sm
 2: It is simple fraction: a = 5, b = 6
+Measure = dm
 3: It is complex number: x = 3, y = 4
+Measure = dm
 4: It is simple fraction: a = 5, b = 7
-5: It is polar: r = 10, fi = 2
 Empty container. 
 Container contains 0 elements. 

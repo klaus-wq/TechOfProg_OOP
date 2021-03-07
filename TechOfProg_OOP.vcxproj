@@ -155,6 +155,8 @@
     <ClCompile Include="number_In.cpp" />
     <ClCompile Include="polar_In.cpp" />
     <ClCompile Include="polar_Out.cpp" />
+    <ClCompile Include="num_In.cpp" />
+    <ClCompile Include="num_Out.cpp" />
     <ClCompile Include="simple_In.cpp" />
     <ClCompile Include="simple_Out.cpp" />
   </ItemGroup>

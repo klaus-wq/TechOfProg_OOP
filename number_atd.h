@@ -8,6 +8,7 @@ namespace simple_numbers {
 	// явл€етс€ абстрактным, обеспечива€, тем самым,
 	// проверку интерфейса
 	class number {
+		char measure[3];
 	public:
 		// идентификаци€, порождение и ввод чисел из потока
 		static number* In(ifstream& ifst);

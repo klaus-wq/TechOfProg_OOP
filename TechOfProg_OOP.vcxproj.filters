@@ -63,6 +63,10 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="polar_Out.cpp">
+    <ClCompile Include="num_In.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="num_Out.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
