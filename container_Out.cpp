@@ -4,7 +4,7 @@ namespace simple_numbers {
 	// Вывод содержимого контейнера
 	bool node::output_node(ofstream& ofst)
 	{
-		n->OutComplex(ofst);
+		n->Out(ofst);
 		ofst << "Real = " << n->Real() << endl;
 		return true;
 	}
@@ -21,6 +21,30 @@ namespace simple_numbers {
 		{
 			ofst << i << ": ";
 			curNode->output_node(ofst);
+			curNode = curNode->next;
+			i++;
+		}
+	}
+
+	bool node::OutComplex(ofstream& ofst)
+	{
+		n->OutComplex(ofst);
+		ofst << "Real = " << n->Real() << endl;
+		return true;
+	}
+
+	// Вывод содержимого контейнера
+	void container::OutComplex(ofstream& ofst)
+	{
+		ofst << "Container contains " << len << " elements. " << endl;
+		//ВЫВОДИМ СПИСОК С НАЧАЛА
+		node* curNode = head;
+		int i = 0;
+
+		while (curNode != NULL)
+		{
+			ofst << i << ": ";
+			curNode->OutComplex(ofst);
 			curNode = curNode->next;
 			i++;
 		}
