@@ -12,7 +12,20 @@ namespace simple_numbers {
 		void InData(ifstream& ifst); // ввод
 		void Out(ofstream& ofst); // вывод
 		int Real(); //приведение к действительному числу
-		simple() {} // создание без инициализации.
+		simple() {};
+		simple( int x, int y) 
+		{
+			this->a = x;
+			this->b = y;
+		} // создание без инициализации.
+		int get_a(simple *s)
+		{
+			return s->a;
+		}
+		int get_b(simple* s)
+		{
+			return s->b;
+		}
 	};
 } // end simple_numbers namespace
 #endif

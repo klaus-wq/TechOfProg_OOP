@@ -13,7 +13,20 @@ namespace simple_numbers {
 		void InData(ifstream& ifst); // ввод
 		void Out(ofstream& ofst); // вывод
 		int Real(); //приведение к действительному числу
-		polar() {} // создание без инициализации.
+		polar() {}; // создание без инициализации.
+		polar(int x, double y)
+		{
+			this->r = x;
+			this->fi = y;
+		} // создание без инициализации.
+		int get_r(polar* p)
+		{
+			return p->r;
+		}
+		int get_fi(polar* p)
+		{
+			return p->fi;
+		}
 	};
 } // end simple_numbers namespace
 #endif

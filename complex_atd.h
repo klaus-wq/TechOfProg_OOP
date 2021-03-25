@@ -13,7 +13,20 @@ namespace simple_numbers {
 		void Out(ofstream& ofst); // вывод
 		int Real(); //приведение к действительному числу
 		void OutComplex(ofstream& ofst);
-		complex() {} // создание без инициализации.
+		complex() {}; // создание без инициализации.
+		complex(int a, int b)
+		{
+			this->x = a;
+			this->y = b;
+		} // создание без инициализации.
+		int get_x(complex* c)
+		{
+			return c->x;
+		}
+		int get_y(complex* c)
+		{
+			return c->y;
+		}
 	};
 } // end simple_numbers namespace
 #endif
