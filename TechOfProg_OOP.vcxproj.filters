@@ -17,20 +17,16 @@
     <ClCompile Include="simple_Out.cpp" />
     <ClCompile Include="simple_real.cpp" />
     <ClCompile Include="polar_real.cpp" />
+    <ClCompile Include="complex_outComplex.cpp" />
+    <ClCompile Include="number_OutComplex.cpp" />
+    <ClCompile Include="sort.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="complex_atd.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="container_atd.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="number_atd.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="simple_atd.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
+    <ClInclude Include="complex_atd.h" />
+    <ClInclude Include="container_atd.h" />
+    <ClInclude Include="number_atd.h" />
+    <ClInclude Include="polar_atd.h" />
+    <ClInclude Include="simple_atd.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="complex_In.cpp">
@@ -64,15 +60,6 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="simple_real.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="sort.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="number_OutComplex.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="complex_outComplex.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
