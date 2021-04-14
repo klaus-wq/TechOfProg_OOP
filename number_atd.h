@@ -17,6 +17,10 @@ namespace simple_numbers {
 		virtual void OutComplex(ofstream& ofst);
 		virtual int Real() = 0; //приведение к действительному числу
 		bool Compare(number* other);
+		virtual void MultiMethod(number* other, ofstream& ofst) = 0;
+		virtual void MMComp(ofstream& ofst) = 0;
+		virtual void MMSimp(ofstream& ofst) = 0;
+		virtual void MMPol(ofstream& ofst) = 0;
 	};
 } // end simple_numbers namespace
 #endif

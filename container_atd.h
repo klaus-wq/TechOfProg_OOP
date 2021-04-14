@@ -27,6 +27,8 @@ namespace simple_numbers {
 			void Real(ofstream& ofst);
 			void Sort();
 			void Clear();
+			void Multimethod(ofstream& ofst);
+			node* get_node(int offset);
 
 			container();
 			~container();

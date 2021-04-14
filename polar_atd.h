@@ -27,6 +27,10 @@ namespace simple_numbers {
 		{
 			return p->fi;
 		}
+		void MultiMethod(number* other, ofstream& ofst);
+		void MMComp(ofstream& ofst);
+		void MMSimp(ofstream& ofst);
+		void MMPol(ofstream& ofst);
 	};
 } // end simple_numbers namespace
 #endif

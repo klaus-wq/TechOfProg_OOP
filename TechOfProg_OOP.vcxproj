@@ -147,21 +147,34 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="complex_In.cpp" />
+    <ClCompile Include="complex_MM.cpp" />
+    <ClCompile Include="complex_MMComp.cpp" />
+    <ClCompile Include="complex_MMPol.cpp" />
+    <ClCompile Include="complex_MMSimp.cpp" />
     <ClCompile Include="complex_Out.cpp" />
     <ClCompile Include="complex_outComplex.cpp" />
     <ClCompile Include="complex_real.cpp" />
     <ClCompile Include="container_Constr.cpp" />
     <ClCompile Include="container_In.cpp" />
+    <ClCompile Include="container_MM.cpp" />
     <ClCompile Include="container_Out.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="number_In.cpp" />
     <ClCompile Include="number_OutComplex.cpp" />
     <ClCompile Include="polar_In.cpp" />
+    <ClCompile Include="polar_MM.cpp" />
+    <ClCompile Include="polar_MMComp.cpp" />
+    <ClCompile Include="polar_MMPol.cpp" />
+    <ClCompile Include="polar_MMSimp.cpp" />
     <ClCompile Include="polar_Out.cpp" />
     <ClCompile Include="num_In.cpp" />
     <ClCompile Include="num_Out.cpp" />
     <ClCompile Include="polar_real.cpp" />
     <ClCompile Include="simple_In.cpp" />
+    <ClCompile Include="simple_MM.cpp" />
+    <ClCompile Include="simple_MMComp.cpp" />
+    <ClCompile Include="simple_MMPol.cpp" />
+    <ClCompile Include="simple_MMSimp.cpp" />
     <ClCompile Include="simple_Out.cpp" />
     <ClCompile Include="simple_real.cpp" />
     <ClCompile Include="sort.cpp" />

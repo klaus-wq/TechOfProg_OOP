@@ -41,6 +41,8 @@ int main(int argc, char* argv[])
 	c.Out(ofst);
 	ofst << "\n\nFiltered container. " << endl;
 	c.OutComplex(ofst);
+	ofst << "\n" << endl;
+	c.Multimethod(ofst);
 	c.Clear();
 	ofst << "Empty container. " << endl;
 	c.Out(ofst);

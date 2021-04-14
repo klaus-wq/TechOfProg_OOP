@@ -20,6 +20,19 @@
     <ClCompile Include="complex_outComplex.cpp" />
     <ClCompile Include="number_OutComplex.cpp" />
     <ClCompile Include="sort.cpp" />
+    <ClCompile Include="complex_MM.cpp" />
+    <ClCompile Include="complex_MMComp.cpp" />
+    <ClCompile Include="complex_MMPol.cpp" />
+    <ClCompile Include="complex_MMSimp.cpp" />
+    <ClCompile Include="container_MM.cpp" />
+    <ClCompile Include="polar_MM.cpp" />
+    <ClCompile Include="polar_MMComp.cpp" />
+    <ClCompile Include="polar_MMPol.cpp" />
+    <ClCompile Include="polar_MMSimp.cpp" />
+    <ClCompile Include="simple_MM.cpp" />
+    <ClCompile Include="simple_MMComp.cpp" />
+    <ClCompile Include="simple_MMPol.cpp" />
+    <ClCompile Include="simple_MMSimp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="complex_atd.h" />
