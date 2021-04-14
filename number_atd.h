@@ -14,6 +14,9 @@ namespace simple_numbers {
 		virtual void InData(ifstream& ifst) = 0; // ввод
 		virtual void Out(ofstream& ofst) = 0; // вывод
 		virtual int Real() = 0; //приведение к действительному числу
+		virtual void MultiMethod(number* other, ofstream& ofst) = 0;
+		virtual void MMComp(ofstream& ofst) = 0;
+		virtual void MMSimp(ofstream& ofst) = 0;
 	};
 } // end simple_numbers namespace
 #endif
