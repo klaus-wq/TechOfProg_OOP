@@ -8,7 +8,6 @@ namespace simple_numbers {
 		tail = NULL;
 	}
 
-	//container::~container() // Очистка контейнера от элементов
 	void container::Clear()
 	{
 		node* curNode;

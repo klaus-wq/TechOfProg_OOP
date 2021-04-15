@@ -1,7 +1,6 @@
 #pragma once
 #ifndef __simple_atd__
 #define __simple_atd__
-// Требуется описание класса number
 #include "number_atd.h"
 namespace simple_numbers {
 	// простая дробь

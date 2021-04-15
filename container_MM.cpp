@@ -22,7 +22,7 @@ namespace simple_numbers {
 		for (int i = 0; i < len - 1; i++) {
 			for (int j = i + 1; j < len; j++) {
 				ofst << count << ". ";
-				get_node(i)->n->MultiMethod(get_node(j)->n, ofst);;
+				get_node(i)->n->MultiMethod(get_node(j)->n, ofst);
 				get_node(i)->output_node(ofst);
 				get_node(j)->output_node(ofst);
 				count++;
@@ -31,4 +31,4 @@ namespace simple_numbers {
 
 	}
 
-} //
+} // end simple_numbers namespace

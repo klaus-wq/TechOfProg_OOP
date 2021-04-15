@@ -1,8 +1,8 @@
 #include "container_atd.h"
 using namespace std;
 namespace simple_numbers {
-	// ¬вод содержимого контейнера
 
+	//добавление узла
 	bool node::add_node(ifstream& ifst)
 	{
 		n = number::In(ifst);
@@ -16,6 +16,7 @@ namespace simple_numbers {
 		}
 	}
 
+	//ввод контейнера
 	void container::In(ifstream& ifst)
 	{
 		while (!ifst.eof())

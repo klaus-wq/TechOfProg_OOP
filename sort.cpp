@@ -5,11 +5,13 @@
 #endif
 using namespace std;
 namespace simple_numbers {
+    //сравнение
     bool number::Compare(number* other)
     {
         return Real() < other->Real();
     }
 
+    //сортировка контейнера
     void container::Sort()
     {
         node* left = head;
