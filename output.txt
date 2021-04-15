@@ -13,52 +13,52 @@ Real = 0
 
 
 Multimethod.
-Complex and Simple
+1. Complex and Simple
 It is complex number: x = 1, y = 2
 Real = 2
 It is simple fraction: a = 2, b = 3
 Real = 0
-Complex and Simple
+2. Complex and Simple
 It is complex number: x = 1, y = 2
 Real = 2
 It is simple fraction: a = 5, b = 6
 Real = 0
-Complex and Complex
+3. Complex and Complex
 It is complex number: x = 1, y = 2
 Real = 2
 It is complex number: x = 3, y = 4
 Real = 5
-Complex and Simple
+4. Complex and Simple
 It is complex number: x = 1, y = 2
 Real = 2
 It is simple fraction: a = 5, b = 7
 Real = 0
-Simple and Simple
+5. Simple and Simple
 It is simple fraction: a = 2, b = 3
 Real = 0
 It is simple fraction: a = 5, b = 6
 Real = 0
-Simple and Complex
+6. Simple and Complex
 It is simple fraction: a = 2, b = 3
 Real = 0
 It is complex number: x = 3, y = 4
 Real = 5
-Simple and Simple
+7. Simple and Simple
 It is simple fraction: a = 2, b = 3
 Real = 0
 It is simple fraction: a = 5, b = 7
 Real = 0
-Simple and Complex
+8. Simple and Complex
 It is simple fraction: a = 5, b = 6
 Real = 0
 It is complex number: x = 3, y = 4
 Real = 5
-Simple and Simple
+9. Simple and Simple
 It is simple fraction: a = 5, b = 6
 Real = 0
 It is simple fraction: a = 5, b = 7
 Real = 0
-Complex and Simple
+10. Complex and Simple
 It is complex number: x = 3, y = 4
 Real = 5
 It is simple fraction: a = 5, b = 7
