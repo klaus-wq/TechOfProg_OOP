@@ -28,7 +28,5 @@ namespace simple_numbers {
 				count++;
 			}
 		}
-
 	}
-
 } // end simple_numbers namespace

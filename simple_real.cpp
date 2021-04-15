@@ -3,15 +3,12 @@
 using namespace std;
 namespace simple_numbers {
 	// Приведение простой дроби к действительному
-	int simple::Real()
-	{
-		if (b == 0)
-		{
+	int simple::Real() {
+		if (b == 0) {
 			cout << "SimpleReal! Деление на 0!" << endl;
 			return 0;
 		}
-		else
-		{
+		else {
 			return a / b;
 		}
 	}

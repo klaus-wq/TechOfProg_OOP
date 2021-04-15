@@ -4,7 +4,7 @@
 // Требуется описание класса number
 #include "number_atd.h"
 namespace simple_numbers {
-	// пполярные кооринаты
+	// полярные кооринаты
 	class polar : public number {
 		int r;
 		double fi; // расстояние до точки и угол
@@ -14,17 +14,14 @@ namespace simple_numbers {
 		void Out(ofstream& ofst); // вывод
 		int Real(); //приведение к действительному числу
 		polar() {}; // создание без инициализации.
-		polar(int x, double y)
-		{
+		polar(int x, double y) {
 			this->r = x;
 			this->fi = y;
 		} // создание без инициализации.
-		int get_r(polar* p)
-		{
+		int get_r(polar* p) {
 			return p->r;
 		}
-		int get_fi(polar* p)
-		{
+		int get_fi(polar* p) {
 			return p->fi;
 		}
 		void MultiMethod(number* other, ofstream& ofst);

@@ -14,17 +14,14 @@ namespace simple_numbers {
 		int Real(); //приведение к действительному числу
 		void OutComplex(ofstream& ofst);
 		complex() {}; // создание без инициализации.
-		complex(int a, int b)
-		{
+		complex(int a, int b) {
 			this->x = a;
 			this->y = b;
 		} // создание без инициализации.
-		int get_x(complex* c)
-		{
+		int get_x(complex* c) {
 			return c->x;
 		}
-		int get_y(complex* c)
-		{
+		int get_y(complex* c) {
 			return c->y;
 		}
 		void MultiMethod(number* other, ofstream& ofst);

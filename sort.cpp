@@ -6,25 +6,20 @@
 using namespace std;
 namespace simple_numbers {
     //сравнение
-    bool number::Compare(number* other)
-    {
+    bool number::Compare(number* other) {
         return Real() < other->Real();
     }
 
     //сортировка контейнера
-    void container::Sort()
-    {
+    void container::Sort() {
         node* left = head;
         node* right = head->next;
 
         node* temp = new node;
 
-        for (int i = 0; i < len - 1; i++)
-        {
-            for (int j = i + 1; j < len; j++)
-            {
-                if (left->n->Compare(right->n))
-                {
+        for (int i = 0; i < len - 1; i++) {
+            for (int j = i + 1; j < len; j++) {
+                if (left->n->Compare(right->n)) {
                     temp->n = left->n;
                     left->n = right->n;
                     right->n = temp->n;

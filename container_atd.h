@@ -3,8 +3,7 @@
 #define __container_atd__
 #include "number_atd.h"
 namespace simple_numbers {
-		class node
-		{
+		class node {
 		public:
 			number* n;
 			node* next;
@@ -15,8 +14,7 @@ namespace simple_numbers {
 			bool OutComplex(ofstream& ofst);
 			~node();
 		};
-		class container
-		{
+		class container {
 		public:
 			int len;
 			node* head;

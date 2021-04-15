@@ -4,26 +4,22 @@
 using namespace std;
 using namespace simple_numbers;
 
-int main(int argc, char* argv[])
-{
-	if (argc != 3)
-	{
+int main(int argc, char* argv[]) {
+	if (argc != 3) {
 		cout << "incorrect command line! "
 			"Waited: command in_file out_file"
 			<< endl;
 		exit(1);
 	}
 	ifstream ifst(argv[1]);
-	if (!ifst)
-	{
+	if (!ifst) {
 		cout << "No input file found!" << endl;
 		return 0;
 	}
 
 	char ch; //проверка файла на пустоту
 	FILE* f = fopen(argv[1], "r");
-	if (fscanf(f, "%c", &ch) == EOF)
-	{
+	if (fscanf(f, "%c", &ch) == EOF) {
 		cout << "Input file is Empty" << endl;
 
 		return 1;

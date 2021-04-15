@@ -11,14 +11,12 @@ namespace simple_numbers {
 		number* nb;
 		int k;
 		ifst >> k;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of k!" << endl;
 			exit(0);
 		}
 
-		if ((k != 1) && (k != 2) && (k != 3))
-		{
+		if ((k != 1) && (k != 2) && (k != 3)) {
 			cout << "Wrong number of k!" << endl;
 			exit(0);
 		}

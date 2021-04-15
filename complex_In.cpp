@@ -5,8 +5,7 @@ namespace simple_numbers {
 	// Ввод параметров комплексного числа
 	void complex::InData(ifstream& ifst) {
 		ifst >> x >> y;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of complex!" << endl;
 			exit(0);
 		}

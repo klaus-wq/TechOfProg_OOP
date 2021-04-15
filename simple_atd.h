@@ -12,17 +12,14 @@ namespace simple_numbers {
 		void Out(ofstream& ofst); // вывод
 		int Real(); //приведение к действительному числу
 		simple() {};
-		simple( int x, int y) 
-		{
+		simple( int x, int y) {
 			this->a = x;
 			this->b = y;
 		} // создание без инициализации.
-		int get_a(simple *s)
-		{
+		int get_a(simple *s) {
 			return s->a;
 		}
-		int get_b(simple* s)
-		{
+		int get_b(simple* s) {
 			return s->b;
 		}
 		void MultiMethod(number* other, ofstream& ofst);

@@ -1,8 +1,7 @@
 #include "container_atd.h"
 namespace simple_numbers {
 	node::~node() {}
-	container::container() // Инициализация контейнера
-	{
+	container::container() {
 		len = 0;
 		head = NULL;
 		tail = NULL;
@@ -12,8 +11,7 @@ namespace simple_numbers {
 	{
 		node* curNode;
 		curNode = head;
-		while (curNode != NULL)
-		{
+		while (curNode != NULL) {
 			node* temp = curNode->next;
 			delete curNode;
 			curNode = temp;
@@ -24,8 +22,7 @@ namespace simple_numbers {
 
 	}
 
-	container::~container()
-	{
+	container::~container() {
 		Clear();
 	}
 } // end simple_numbers namespace

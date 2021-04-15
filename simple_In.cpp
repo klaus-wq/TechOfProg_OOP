@@ -5,8 +5,7 @@ namespace simple_numbers {
 	// Ввод параметров простой дроби
 	void simple::InData(ifstream& ifst) {
 		ifst >> a >> b;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of simple!" << endl;
 			exit(0);
 		}

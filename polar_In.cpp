@@ -5,8 +5,7 @@ namespace simple_numbers {
 	// ¬вод параметров пол€рных координат
 	void polar::InData(ifstream& ifst) {
 		ifst >> r >> fi;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of polar!" << endl;
 			exit(0);
 		}

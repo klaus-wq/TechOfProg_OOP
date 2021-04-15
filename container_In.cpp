@@ -3,41 +3,32 @@ using namespace std;
 namespace simple_numbers {
 
 	//добавление узла
-	bool node::add_node(ifstream& ifst)
-	{
+	bool node::add_node(ifstream& ifst) {
 		n = number::In(ifst);
-		if (n == NULL)
-		{
+		if (n == NULL) {
 			return false;
 		}
-		else
-		{
+		else {
 			return true;
 		}
 	}
 
 	//ввод контейнера
-	void container::In(ifstream& ifst)
-	{
-		while (!ifst.eof())
-		{
+	void container::In(ifstream& ifst) {
+		while (!ifst.eof()) {
 			node* curNode = new node;
-			if (curNode->add_node(ifst))
-			{
+			if (curNode->add_node(ifst)) {
 				len++;
-				if (head != NULL)
-				{
+				if (head != NULL) {
 					curNode->prev = tail;
 					tail->next = curNode;
 					tail = curNode;
 				}
-				else
-				{
+				else {
 					curNode->prev = NULL;
 					head = tail = curNode;
 				}
 			}
 		}
 	}
-
 } // end simple_numbers namespace

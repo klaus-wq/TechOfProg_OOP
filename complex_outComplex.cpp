@@ -2,8 +2,7 @@
 #include <fstream>
 using namespace std;
 namespace simple_numbers {
-	void complex::OutComplex(ofstream& ofst)
-	{
+	void complex::OutComplex(ofstream& ofst) {
 		Out(ofst);
 	}
 
